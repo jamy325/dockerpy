@@ -4,7 +4,7 @@ RUN apt-get update \
     && apt-get install -y unzip curl bash nginx ca-certificates \
     python3 python3-venv python3-pip \
     vim-tiny \
-    et-tools iproute2 iputils-ping dnsutils \
+    net-tools iproute2 iputils-ping dnsutils \
     procps lsof less \
     && rm -rf /var/lib/apt/lists/*
 
